@@ -7,7 +7,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
-    software-properties-common \
+    # software-properties-common \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
