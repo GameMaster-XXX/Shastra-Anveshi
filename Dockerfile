@@ -1,11 +1,14 @@
 # Use a slim image to keep size down
 FROM python:3.11-slim
 
+ENV DEBIAN_FRONTEND=noninteractive
+
 # Install system dependencies (needed for some transformer/numpy libraries)
 RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
     software-properties-common \
+    && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
