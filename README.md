@@ -104,7 +104,7 @@ python ingestion_pipeline.py
 
 ---
 
-## 🧠 Inference Pipeline (Querying)
+## Inference Pipeline (Querying)
 
 Once the databases are populated, you can query the system. The inference pipeline features a multi-stage retrieval and routing mechanism.
 
