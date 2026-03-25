@@ -126,7 +126,7 @@ python pipeline.py
 
 ---
 
-## 📁 Repository Structure Overview
+## Repository Structure Overview
 
 | File | Sub-System | Description |
 | --- | --- | --- |
