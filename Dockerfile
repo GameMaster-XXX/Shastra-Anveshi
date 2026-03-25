@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # 2. Copy the local model specifically
 # Ensure this directory structure matches your SentenceTransformer(MODEL_ID) call
-COPY ./krutrim-ai-labs/Vyakyarth ./krutrim-ai-labs/Vyakyarth
+# COPY ./krutrim-ai-labs/Vyakyarth ./krutrim-ai-labs/Vyakyarth
 
 # 3. Copy application code
 COPY . .
