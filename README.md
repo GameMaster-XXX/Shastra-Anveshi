@@ -4,7 +4,7 @@
 
 It leverages a dual-database architecture, combining dense vector retrieval (Milvus) with semantic Knowledge Graph traversal (Neo4j). By utilizing specialized language models like `krutrim-ai-labs/Vyakyarth` for embeddings and `Sarvam-M` for generation and listwise reranking, the system answers profound philosophical queries through the persona of a revered Advaita Vedanta Acharya.
 
-## 🏗️ Core Architecture
+## Core Architecture
 
 The system operates on two parallel tracks during retrieval, merging their contexts before final generation:
 
