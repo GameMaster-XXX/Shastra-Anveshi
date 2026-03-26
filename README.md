@@ -59,7 +59,7 @@ MILVUS_PORT=19530
 
 ---
 
-## 🚀 Data Pipeline (Ingestion)
+## Data Pipeline (Ingestion)
 
 The ingestion process is divided into textual processing, ontology/graph generation, and database population.
 
