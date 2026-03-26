@@ -7,6 +7,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y \
     build-essential \
     curl \
+    zlib1g-dev \
     # software-properties-common \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
