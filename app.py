@@ -24,8 +24,8 @@ from generator import construct_prompt_with_citations
 
 # --- Configuration ---
 load_dotenv(override=True)
-CHILD_COLLECTION_NAME = "gita_children_vyakrath_113"
-PARENT_COLLECTION_NAME = "gita_parent_vyakrath_113"
+CHILD_COLLECTION_NAME = "gita_english_children_vyakrath_161"
+PARENT_COLLECTION_NAME = "gita_english_parents_vyakrath_161"
 FEEDBACK_COLLECTION_NAME = "Sashi_feedback"
 MILVUS_HOST = os.getenv("MILVUS_HOST", "localhost")
 MILVUS_PORT = os.getenv("MILVUS_PORT", "19530")
