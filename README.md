@@ -13,7 +13,7 @@ The system operates on two parallel tracks during retrieval, merging their conte
 
 ## 🛠️ Prerequisites & Infrastructure
 
-Given the need for reliable containerized operations and vector storage, the project utilizes Docker for infrastructure.
+Given the need for reliable containerized operations and vector storage, the project utilizes Docker for infrastructure
 
 * **Docker & Docker Compose** (For Milvus, MinIO, and etcd)
 * **Neo4j** (Desktop or AuraDB instance)
